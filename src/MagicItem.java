@@ -1,4 +1,7 @@
-package PACKAGE_NAME;
-
-public class MagicItem {
+public abstract class MagicItem {
+    String name;
+    String description;
+    int weight;
+    String modifies;
+    int modifyAmount;
 }
